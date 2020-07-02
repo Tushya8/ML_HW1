@@ -139,7 +139,7 @@ col_names_pred = col_names[0:6]
 predict_df = pd.DataFrame([predict_data], columns = col_names_pred)
 #print(predict_df)
 new_row = predict_df.iloc[0]
-#print(new_row)
+print(new_row)
 
 
 prediction = predict(new_row, tree)
