@@ -137,7 +137,7 @@ pprint.pprint(tree)
 predict_data = ['Moderate', 'Cheap', 'Loud', 'City-Center', 'No', 'No']
 col_names_pred = col_names[0:6]
 predict_df = pd.DataFrame([predict_data], columns = col_names_pred)
-#print(predict_df)
+print(predict_df)
 new_row = predict_df.iloc[0]
 print(new_row)
 
